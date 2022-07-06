@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B2F1532823627100684F87 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2F1522823627100684F87 /* CarViewController.m */; };
 		65B588BF28164BE60059F040 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588BE28164BE60059F040 /* AppDelegate.swift */; };
 		65B588C128164BE60059F040 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588C028164BE60059F040 /* SceneDelegate.swift */; };
 		65B588C328164BE60059F040 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588C228164BE60059F040 /* ViewController.swift */; };
@@ -16,6 +17,10 @@
 		65B588D628164BE70059F040 /* Swift220425Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588D528164BE70059F040 /* Swift220425Tests.swift */; };
 		65B588E028164BE70059F040 /* Swift220425UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588DF28164BE70059F040 /* Swift220425UITests.swift */; };
 		65B588E228164BE70059F040 /* Swift220425UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588E128164BE70059F040 /* Swift220425UITestsLaunchTests.swift */; };
+		65B588EF28164C150059F040 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588EE28164C150059F040 /* HomeViewController.swift */; };
+		65B588F3281785F30059F040 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B588F2281785F30059F040 /* SettingViewController.swift */; };
+		65DB3D942828B6F7002F0790 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65DB3D932828B6F7002F0790 /* GCD.swift */; };
+		C643E9748D718B364F477BBD /* Pods_Swift220425.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682C7072A6B89BD19C280128 /* Pods_Swift220425.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B2F1502823627100684F87 /* Swift220425-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift220425-Bridging-Header.h"; sourceTree = "<group>"; };
+		65B2F1512823627100684F87 /* CarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		65B2F1522823627100684F87 /* CarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
 		65B588BB28164BE60059F040 /* Swift220425.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift220425.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B588BE28164BE60059F040 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B588C028164BE60059F040 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		65B588DB28164BE70059F040 /* Swift220425UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift220425UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B588DF28164BE70059F040 /* Swift220425UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift220425UITests.swift; sourceTree = "<group>"; };
 		65B588E128164BE70059F040 /* Swift220425UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift220425UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B588EE28164C150059F040 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		65B588F2281785F30059F040 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		65DB3D932828B6F7002F0790 /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		682C7072A6B89BD19C280128 /* Pods_Swift220425.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift220425.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ADAA3B8EEE4848D0DD82C68 /* Pods-Swift220425.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift220425.debug.xcconfig"; path = "Target Support Files/Pods-Swift220425/Pods-Swift220425.debug.xcconfig"; sourceTree = "<group>"; };
+		FF44AC7B0D1FDA01FD193EF1 /* Pods-Swift220425.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift220425.release.xcconfig"; path = "Target Support Files/Pods-Swift220425/Pods-Swift220425.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C643E9748D718B364F477BBD /* Pods_Swift220425.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F0FC1A51807E61ECFB743C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682C7072A6B89BD19C280128 /* Pods_Swift220425.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		65B588B228164BE60059F040 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				65B588D428164BE70059F040 /* Swift220425Tests */,
 				65B588DE28164BE70059F040 /* Swift220425UITests */,
 				65B588BC28164BE60059F040 /* Products */,
+				E922D5E55F583DAEDA5686FE /* Pods */,
+				4F0FC1A51807E61ECFB743C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +124,20 @@
 		65B588BD28164BE60059F040 /* Swift220425 */ = {
 			isa = PBXGroup;
 			children = (
+				65B588F128167CC00059F040 /* Tools */,
+				65B588F028167C9D0059F040 /* Modules */,
 				65B588BE28164BE60059F040 /* AppDelegate.swift */,
 				65B588C028164BE60059F040 /* SceneDelegate.swift */,
+				65B588EE28164C150059F040 /* HomeViewController.swift */,
+				65B588F2281785F30059F040 /* SettingViewController.swift */,
 				65B588C228164BE60059F040 /* ViewController.swift */,
 				65B588C428164BE60059F040 /* Main.storyboard */,
 				65B588C728164BE70059F040 /* Assets.xcassets */,
 				65B588C928164BE70059F040 /* LaunchScreen.storyboard */,
 				65B588CC28164BE70059F040 /* Info.plist */,
+				65B2F1512823627100684F87 /* CarViewController.h */,
+				65B2F1522823627100684F87 /* CarViewController.m */,
+				65B2F1502823627100684F87 /* Swift220425-Bridging-Header.h */,
 			);
 			path = Swift220425;
 			sourceTree = "<group>";
@@ -127,6 +159,30 @@
 			path = Swift220425UITests;
 			sourceTree = "<group>";
 		};
+		65B588F028167C9D0059F040 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				65DB3D932828B6F7002F0790 /* GCD.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		65B588F128167CC00059F040 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E922D5E55F583DAEDA5686FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9ADAA3B8EEE4848D0DD82C68 /* Pods-Swift220425.debug.xcconfig */,
+				FF44AC7B0D1FDA01FD193EF1 /* Pods-Swift220425.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65B588E528164BE70059F040 /* Build configuration list for PBXNativeTarget "Swift220425" */;
 			buildPhases = (
+				0C02D4E5920BB532FCACE431 /* [CP] Check Pods Manifest.lock */,
 				65B588B728164BE60059F040 /* Sources */,
 				65B588B828164BE60059F040 /* Frameworks */,
 				65B588B928164BE60059F040 /* Resources */,
+				AE2921762FE9F5442A1E718D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +253,7 @@
 				TargetAttributes = {
 					65B588BA28164BE60059F040 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 					};
 					65B588D028164BE70059F040 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -253,14 +312,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C02D4E5920BB532FCACE431 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift220425-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE2921762FE9F5442A1E718D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift220425/Pods-Swift220425-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift220425/Pods-Swift220425-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift220425/Pods-Swift220425-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		65B588B728164BE60059F040 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65DB3D942828B6F7002F0790 /* GCD.swift in Sources */,
+				65B588F3281785F30059F040 /* SettingViewController.swift in Sources */,
+				65B2F1532823627100684F87 /* CarViewController.m in Sources */,
 				65B588C328164BE60059F040 /* ViewController.swift in Sources */,
 				65B588BF28164BE60059F040 /* AppDelegate.swift in Sources */,
 				65B588C128164BE60059F040 /* SceneDelegate.swift in Sources */,
+				65B588EF28164C150059F040 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +537,11 @@
 		};
 		65B588E628164BE70059F040 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADAA3B8EEE4848D0DD82C68 /* Pods-Swift220425.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +559,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.kit.Swift220425;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift220425/Swift220425-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -459,9 +568,11 @@
 		};
 		65B588E728164BE70059F040 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF44AC7B0D1FDA01FD193EF1 /* Pods-Swift220425.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +590,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.isoftstone.kit.Swift220425;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift220425/Swift220425-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
